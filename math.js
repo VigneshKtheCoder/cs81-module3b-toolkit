@@ -8,3 +8,13 @@ function square(a) {
     return a**2;
 }
 console.log(square(9));
+
+function isEven(e) {
+    return e % 2 == 0;
+}
+console.log(isEven(4));
+
+function isOdd(o) {
+    return o % 2 != 0;
+}
+console.log(isOdd(9));
