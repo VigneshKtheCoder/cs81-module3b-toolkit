@@ -18,3 +18,13 @@ function isOdd(o) {
     return o % 2 != 0;
 }
 console.log(isOdd(9));
+
+function multiply(a,b) {
+    return a*b;
+}
+console.log(multiply(5,6));
+
+function cube(c) {
+    return c**3;
+}
+console.log(cube(5));
